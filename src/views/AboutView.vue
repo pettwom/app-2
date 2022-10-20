@@ -1,5 +1,19 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="about">
+        <producto_component />
+        <tarjetas_component />
+    </div>
 </template>
+
+<script>
+import producto_component from '@/components/producto.vue'
+import tarjetas_component from '@/components/tarjetas.vue'
+
+export default {
+    name: 'about',
+    components: {
+        producto_component,
+        tarjetas_component
+    }
+}
+</script>
