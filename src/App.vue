@@ -4,7 +4,7 @@
         <router-link to="/about">About</router-link>
     </nav> -->
     <menu_component />
-    <router-view />
+    <router-view style="margin:100px 0" />
     <footer_component />
 </template>
 <script>

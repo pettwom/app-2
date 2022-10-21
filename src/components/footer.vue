@@ -1,6 +1,6 @@
 <template>
     <footer v-bind:style="`background-color: ${footerColor};`">
-        <h3>Practica Hecha por Petter Meave</h3>
+        <h6>&copy; Petter Meave</h6>
     </footer>
 </template>
 
